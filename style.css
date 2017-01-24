@@ -66,7 +66,6 @@ header {
 
 a {
   text-decoration: none;
-  color: #435063;
 }
 
 #links span {
@@ -99,6 +98,9 @@ div#me .picture {
 div#me .picture img {
   width: 50%;
   border-radius: 50%;
+}
+p, ul, a, #languages {
+  color: #435063;
 }
 
 h2 {
@@ -148,7 +150,6 @@ h4 {
 
 #life p {
   padding-left: 30px;
-  color: #435063;
 }
 
 .with-line {
@@ -178,6 +179,6 @@ h4 {
 
 #languages img {
   width: 64px;
-  padding: 15px;
+  padding: 15px 25px;
   padding-bottom: 0;
 }
