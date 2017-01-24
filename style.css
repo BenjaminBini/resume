@@ -1,167 +1,182 @@
 body {
-          background: #212121;
-          font-family: 'Open Sans', sans-serif;
-      }
+  font-family: 'Open Sans', sans-serif;
+  background: #212121;
+}
 
-      #page {
-          background: white;
-          width: 1024px;
-          margin: 50px auto;
-          box-shadow: 0px 0px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-          margin-top: 50px;
-          border: 10px solid #313131;
-          padding-bottom: 40px;
-      }
+#page {
+  width: 1024px;
+  margin: 50px auto;
+  margin-top: 50px;
+  padding-bottom: 40px;
+  border: 10px solid #313131;
+  background: white;
+  box-shadow: 0 0 28px rgba(0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, .22);
+}
 
-      header {
-          height: 200px;
-          text-align: center;
-          padding-top: 50px;
-          background-image: url('https://blog.bini.io/assets/images/banner.jpg');
-          background-size: cover;
-          background-position: 0 -60px;
-          color: white;
-          text-shadow: 0 0 20px black;
-      }
+header {
+  height: 200px;
+  padding-top: 50px;
+  text-align: center;
+  color: white;
+  background-image: url('https://blog.bini.io/assets/images/banner.jpg');
+  background-position: 0 -60px;
+  background-size: cover;
+  text-shadow: 0 0 20px black;
+}
 
-      .name {
-          font-size: 60px;
-          font-family: 'Lora', serif;
-      }
+.name {
+  font-family: 'Lora', serif;
+  font-size: 60px;
+}
 
-      .position {
-          font-size: 20px;
-      }
+.position {
+  font-size: 20px;
+}
 
-      .contact {
-        margin-top: 10px;
-      }
+.contact {
+  margin-top: 10px;
+}
 
-      .contact span + span {
-        padding-left: 15px;
-      }
+.contact span + span {
+  padding-left: 15px;
+}
 
-      .contact span i {
-        padding-right: 5px;
-      }
+.contact span i {
+  padding-right: 5px;
+}
 
-      #main {
-          display: flex;
-          padding-top: 20px;
-      }
-      #about {
-        width: 40%;
-        flex-shrink: 0;
-        padding-left: 60px;
-        padding-right: 30px;
-        flex-shrink: 0;
-        width: 35%;
-      }
-      #life {
-        padding-left: 30px;
-        padding-right: 60px;
-      }
-      div#me p {
-        line-height: 26px;
-        font-size: 14px;
-      }
-      div#me .picture {
-        margin-top: 20px;
-        text-align: center;
-      }
-      div#me .picture img {
-        width: 50%;
-        border-radius: 50%;
-      }
-      h2 {
-        background: #e9e9eb;
-        color: #435063;
-        font-size: 14px;
-        letter-spacing: 3px;
-        padding: 9px 0 7px 25px;
-        font-family: 'Lora Bold', serif;
-        text-transform: uppercase;
-      }
-      #life h3, #skills h3 {
-        font-family: 'Lora', serif;
-        font-size: 23px;
-        font-weight: lighter;
-        margin: 0;
-      }
-      #life h4 {
-        font-family: 'Open Sans', sans-serif;
-        font-style: italic;
-        color: #30a64e;
-        letter-spacing: 1px;
-        font-weight: 100;
-        font-size: 15px;
-        margin: 0;
-        padding-top: 5px;
-        padding-left: 30px;
-      }
-      #life p, #life h3, #skills h3 {
-        color: #435063;
-        padding-left: 30px;
-        position: relative;
-      }
-      #life h3:before,
-      #skills h3:before {
-        position: absolute;
-        width: 9px;
-        height: 9px;
-        border-radius: 50%;
-        content: "";
-        display: block;
-        top: 12px;
-        left: 0;
-        background-color: #30a64e;
-      }
-      .sully h3:after,
-      .utbm h3:after,
-      #skills h3:after {
-        position: absolute;
-        content: "";
-        display: block;
-        height: 175px;
-        width: 1px;
-        background: #a7aab5;
-        top: 21px;
-        left: 4px;
-      }
-      .utbm h3:after {
-        height: 155px;
-      }
-      #skills .front h3:after {
-        height: 120px;
-      }
-      #skills .back h3:after {
-        height: 0;
-      }
-      .french, .english, .spanish {
-        display: inline-block;
-      }
-      #languages-icons {
-        text-align: center;
-      }
-      #languages img {
-        padding: 15px;
-        padding-bottom: 0px;
-        width: 64px;
-      }
-      #links {
-        text-align: center;
-        font-size: 15px;
-      }
-      #links a {
-        color: #435063;
-        text-decoration: none;
-      }
-      #links span {
-        display: inline-block;
-        padding: 5px;
-      }
-      #links .fa {
-        font-size: 20px;
-        vertical-align: middle;
-        padding-right: 2px;
-      }
+#main {
+  display: flex;
+  padding-top: 20px;
+}
+
+#about {
+  width: 40%;
+  width: 35%;
+  padding-right: 30px;
+  padding-left: 60px;
+  flex-shrink: 0;
+  flex-shrink: 0;
+}
+
+#links {
+  font-size: 15px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #435063;
+}
+
+#links span {
+  display: inline-block;
+  padding: 5px;
+}
+
+#links .fa {
+  font-size: 20px;
+  padding-right: 2px;
+  vertical-align: middle;
+}
+
+
+#life {
+  padding-right: 60px;
+  padding-left: 30px;
+}
+
+div#me p {
+  font-size: 14px;
+  line-height: 26px;
+}
+
+div#me .picture {
+  margin-top: 20px;
+  text-align: center;
+}
+
+div#me .picture img {
+  width: 50%;
+  border-radius: 50%;
+}
+
+h2 {
+  font-family: 'Lora Bold', serif;
+  font-size: 14px;
+  padding: 9px 0 7px 25px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #435063;
+  background: #e9e9eb;
+}
+
+h3 {
+  font-family: 'Lora', serif;
+  font-size: 23px;
+  font-weight: lighter;
+  position: relative;
+  margin: 0;
+  padding-left: 30px;
+  color: #435063;
+}
+
+h3:before {
+  position: absolute;
+  top: 12px;
+  left: 0;
+  display: block;
+  width: 9px;
+  height: 9px;
+  content: '';
+  border-radius: 50%;
+  background-color: #30a64e;
+}
+
+h4 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  font-weight: 100;
+  font-style: italic;
+  margin: 0;
+  padding-top: 5px;
+  padding-left: 30px;
+  letter-spacing: 1px;
+  color: #30a64e;
+}
+
+#life p {
+  padding-left: 30px;
+  color: #435063;
+}
+
+.with-line {
+  position: relative;
+}
+
+.with-line:after {
+  position: absolute;
+  top: 21px;
+  left: 4px;
+  display: block;
+  width: 1px;
+  height: calc(100% + 10px);
+  content: '';
+  background: #a7aab5;
+}
+
+.french,
+.english,
+.spanish {
+  display: inline-block;
+}
+
+#languages-icons {
+  text-align: center;
+}
+
+#languages img {
+  width: 64px;
+  padding: 15px;
+  padding-bottom: 0;
+}
