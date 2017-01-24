@@ -104,6 +104,7 @@ div#me .picture img {
 h2 {
   font-family: 'Lora Bold', serif;
   font-size: 14px;
+  margin-top: 25px;
   padding: 9px 0 7px 25px;
   letter-spacing: 3px;
   text-transform: uppercase;
